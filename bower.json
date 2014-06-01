@@ -1,0 +1,24 @@
+{
+    "name": "kessiler.com",
+    "version": "1.0.0",
+    "authors": [
+        "Kessiler Rodrigues <keessiler@hotmail.com>"
+    ],
+    "description": "my personal web",
+    "keywords": [
+        "kessiler"
+    ],
+    "license": "MIT",
+    "homepage": "www.kessiler.com",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "1.2.16"
+    }
+}

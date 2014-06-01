@@ -1,0 +1,31 @@
+{
+	"firstName": "Kessiler",
+	"lastName": "Rodrigues",
+	"occupation": "Software Engineer",
+	"titleAbout": "About me",
+	"imgProfile": "assets/img/profile.png",
+	"primaryText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+	"secundaryText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+	"sociais": [
+		{
+			"image": "assets/img/icons/icon_facebook.png",
+			"url": "https://www.facebook.com/kessiler",
+			"name": "Facebook"
+		}, 
+		{
+			"image": "assets/img/icons/icon_twitter.png",
+			"url": "https://twitter.com/keessiler",
+			"name": "Twitter"
+		}, 
+		{
+			"image": "assets/img/icons/icon_google.png",
+			"url": "https://plus.google.com/+KessilerRodrigues",
+			"name": "Google"
+		}, 
+		{
+			"image": "assets/img/icons/icon_github.png",
+			"url": "https://github.com/kessiler",
+			"name": "GitHub"
+		}
+	]
+}

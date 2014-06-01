@@ -1,0 +1,41 @@
+<html ng-app="webApp">
+<head>
+    <title>Kessiler Rodrigues</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="Kessiler Rodrigues / Template based John">
+    <meta name="keywords" content="kessiler, kessiler rodrigues, kessiler site" />
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/all.min.css" />
+    <script src="assets/dist/js/main.min.js"></script>
+</head>
+<body ng-controller="MainController">
+    <div class="container">
+        <hgroup class="firstname-color">
+            <h1>{{template.firstName}} <span class="lastname-color">{{template.lastName}}</span></h1>
+            <h2 class="textprof-color"><em ng-bind="template.occupation"></em></h2>
+        </hgroup>
+        <div class="main-light">
+            <div class="outer-border"></div>
+            <div class="scroll-wrapper">
+                <section class="home semi-dark-text">
+                    <article id="about">
+                        <div class="inner-border"></div>
+                        <h1 class="dark-text" ng-bind="template.titleAbout"></h1>
+                        <aside><img ng-src="{{template.imgProfile}}" alt="profile"/></aside>
+                        <p ng-bind="template.primaryText"></p>
+                        <p class="secondary" ng-bind="template.secundaryText"></p>
+                    </article>
+                    <div class="social">
+                        <div class="inner-border"></div>
+                        <ul>
+                            <li ng-repeat="social in template.sociais">
+                                <a ng-href="{{social.url}}"><img ng-src="{{social.image}}" alt="{{social.name}}"/>{{social.name}}</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
