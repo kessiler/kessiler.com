@@ -2,7 +2,8 @@
     "author": "Kessiler Rodrigues <keessiler@hotmail.com>",
     "license": "MIT",
     "devDependencies": {
-        "grunt-cli": "0.1.x",
         "grunt": "~0.4.x",
+        "grunt-cli": "0.1.x",
+        "grunt-contrib-concat": "0.4.x"
     }
 }
