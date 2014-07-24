@@ -50,13 +50,16 @@ header {
 }
 
 .bannerText {
+	max-width: 960px;
+	max-width: -webkit-calc(100% - 50px);
+ 	max-width: -moz-calc(100% - 50px);
+ 	max-width: calc(100% - 50px);
 	position:absolute;
 	left:0;
 	right:0;
 	top:35%;
 	text-align:center;
 	padding:30px 0 30px;
-	max-width:960px;
 	border:1px solid #fff;
 	background: rgba(0, 0, 0, 0.3);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000, endColorstr=#b2000000);
@@ -71,21 +74,21 @@ header {
 	text-transform:none;
 }
 
-.footer {
+footer {
 	background:#262b37;
 	bottom: 0;
 	position: absolute;
 	width: 100%;
 }
-.footer .container {
+footer .container {
 	padding: 9px 0;
 }
-.footer ul {
+footer ul {
 	margin:0 auto;
 	text-align:center;
 	list-style-type:none;
 }
-.footer ul li {
+footer ul li {
 	display:inline-block;
 	text-align:center;
 	background:#ffffff;	
@@ -96,16 +99,23 @@ header {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
-.footer ul li a {
+footer ul li a {
+	opacity: 0.8;
 	color:#262b37;
 	width:42px !important;
 	height:42px !important;
 }
-.footer ul li a i {
+
+footer ul li a:hover {
+	color:#262b37;
+	opacity: 1;
+}
+
+footer ul li a i {
 	line-height:42px !important;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 960px) {
 	.bannerText {
 		padding-left:25px;
 		padding-right:25px;
@@ -120,10 +130,23 @@ header {
 
 }
 
+@media screen and (max-width: 640px) {
+	
+	.bannerText {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.bannerText h1 {
+		font-size: 42px;
+		line-height: 48px;
+	}
+	.bannerText h2 {
+		font-size: 18px;
+		line-height:24px;
+	}
+}
 
-
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 320px) {
 	
 	.bannerText {
 		padding-top:15px;

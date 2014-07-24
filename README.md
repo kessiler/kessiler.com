@@ -1,4 +1,4 @@
 kessiler.com
 =====================
 
-Development in progress.
+Source code that I use in my personal page - www.kessiler.com
